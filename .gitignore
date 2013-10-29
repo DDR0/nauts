@@ -1,0 +1,7 @@
+Citadel/
+hex/
+phydemo/
+.DS_Store
+
+*.swp
+images/sources/*
