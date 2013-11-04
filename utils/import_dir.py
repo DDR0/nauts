@@ -17,7 +17,7 @@ while os.path.exists(outpath):
 	outpath = outpath_base + str(outpath_counter)
 os.makedirs(outpath)
 
-#Unfortunantly, format relies on the {} characters. Which are part of json. So, to escape them, we double them in the template.
+#Unfortunantly, format relies on the {} characters. Which are part of our json. So, to escape them, we double them in the template.
 template = """{{
 id: "{0}",
 next_animation: "'normal'",
